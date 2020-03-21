@@ -18,7 +18,8 @@
  - Extension *.sql running by MySQL Command / PHPMysql
 
 ## Tentang JSON pada REST API
-> REST itu kependakan dari REpresentational State Transfer yang merupakan standar arsitektur berbasis web yang menggunakan protokol HTTP > untuk berkomunikasi data.
+> REST itu kependakan dari REpresentational State Transfer yang merupakan standar arsitektur berbasis web yang menggunakan protokol HTTP
+> untuk berkomunikasi data.
 >
 > Nah REST ini diperkenalkan oleh Roy Fielding pada tahun 2000. Lalu API itu artinya Application Protocol Interface dimana adalah
 > kumpulan dari subroutine definitions, protocol dan juga tools untuk berkomunikasi data antar aplikasi software.
