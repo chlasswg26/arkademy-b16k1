@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body, html {
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            background: #fff;
+        }
+
+        .recta {
+            position: absolute;
+            width: 1440px;
+            height: 109px;
+            left: 0px;
+            top: 0px;
+
+            background: #FFFEFE;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+
+        }
+        .recta-logos {
+            position: absolute;
+            width: 150px;
+            height: 106px;
+            left: 48px;
+            top: 0px;
+
+            background-image:
+            url("https://i.paste.pics/2e7cb461ea7ead04849b23de640ef433.png?trs=b593c7690ca1476e7a4f1ae0a483acb04fe1ad1074ba819d5eee8a15b9960320");
+        }
+
+        .rectb {
+            position: absolute;
+            width: 866px;
+            height: 58px;
+            left: 226px;
+            top: 25px;
+
+            background: #CECECE;
+            border-radius: 10px;
+
+            font-family: Courier;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 39px;
+
+            color: #FFFFFF;
+        }
+
+        .rectc {
+            position: absolute;
+            width: 190px;
+            height: 70px;
+            left: 1193px;
+            top: 19px;
+
+            background: #FADC9C;
+            border-radius: 10px;
+        }
+        .rectc-links {
+            position: fixed;
+            width: 136px;
+            height: 32px;
+            left: 1253px;
+            top: 34px;
+
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 41px;
+
+            color: #FFFFFF;
+        }
+        .rectc-links {
+            text-decoration: none;
+        }
+
+        thead {
+            position: absolute;
+            width: 1232px;
+            height: 118px;
+            left: 104px;
+            top: 231px;
+
+            background: #FADC9C;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+            border-radius: 20px 20px 0px 0px;
+        }
+        th {
+            position: absolute;
+            width: 1177px;
+            height: 50px;
+            left: 147px;
+            top: 270px;
+        }
+        .no {
+            position: fixed;
+            width: 57px;
+            height: 50px;
+            left: 147px;
+            top: 270px;
+
+            font-family: Airbnb Cereal App;
+            font-size: 30px;
+            line-height: 39px;
+
+            color: #FFFFFF;
+        }
+        .cashier {
+            position: fixed;
+            width: 125px;
+            height: 50px;
+            left: 306px;
+            top: 270px;
+
+            font-family: Airbnb Cereal App;
+            font-size: 30px;
+            line-height: 39px;
+
+            color: #FFFFFF;
+        }
+        .product {
+            position: fixed;
+            width: 125px;
+            height: 50px;
+            left: 512px;
+            top: 270px;
+
+            font-family: Airbnb Cereal App;
+            font-size: 30px;
+            line-height: 39px;
+
+            color: #FFFFFF;
+        }
+        .category {
+            position: fixed;
+            width: 155px;
+            height: 50px;
+            left: 739px;
+            top: 270px;
+
+            font-family: Airbnb Cereal App;
+            font-size: 30px;
+            line-height: 39px;
+
+            color: #FFFFFF;
+        }
+        .price {
+            position: fixed;
+            width: 155px;
+            height: 50px;
+            left: 973px;
+            top: 270px;
+
+            font-family: Airbnb Cereal App;
+            font-size: 30px;
+            line-height: 39px;
+
+            color: #FFFFFF;
+        }
+        .action {
+            position: fixed;
+            width: 155px;
+            height: 50px;
+            left: 1169px;
+            top: 270px;
+
+            font-family: Airbnb Cereal App;
+            font-size: 30px;
+            line-height: 39px;
+
+            color: #FFFFFF;
+        }
+
+        tbody {
+            position: absolute;
+            width: 1232px;
+            height: 620px;
+            left: 104px;
+            top: 350px;
+
+            background: #FFFFFF;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+            border-radius: 0px 0px 20px 20px;
+        }
+        td {
+            position: absolute;
+            width: 1004px;
+            height: 52px;
+            left: 150px;
+            top: 385px;
+        }
+        .onsa {
+            position: fixed;
+            width: 55px;
+            height: 52px;
+            left: 150px;
+            top: 385px;
+
+            font-family: Airbnb Cereal App;
+            font-size: 30px;
+            line-height: 39px;
+
+            color: #000000;
+        }
+        .reihsacpe {
+            position: fixed;
+            width: 216px;
+            height: 52px;
+            left: 251px;
+            top: 385px;
+
+            font-family: Airbnb Cereal App;
+            font-size: 30px;
+            line-height: 39px;
+
+            color: #000000;
+        }
+        .tcudorppe {
+            position: fixed;
+            width: 216px;
+            height: 52px;
+            left: 531px;
+            top: 385px;
+
+            font-family: Airbnb Cereal App;
+            font-size: 30px;
+            line-height: 39px;
+
+            color: #000000;
+        }
+        .yrogetacpe {
+            position: fixed;
+            width: 216px;
+            height: 52px;
+            left: 758px;
+            top: 385px;
+
+            font-family: Airbnb Cereal App;
+            font-size: 30px;
+            line-height: 39px;
+
+            color: #000000;
+        }
+        .ecirppe {
+            position: fixed;
+            width: 216px;
+            height: 52px;
+            left: 938px;
+            top: 385px;
+
+            font-family: Airbnb Cereal App;
+            font-size: 30px;
+            line-height: 39px;
+
+            color: #000000;
+        }
+        .btnpe {
+            position: fixed;
+            width: 103px;
+            height: 40px;
+            left: 1177px;
+            top: 386px;
+        }
+        .ep {
+            position: fixed;
+            width: 40px;
+            height: 40px;
+            left: 1177px;
+            top: 386px;
+
+            background:
+            url("https://i.paste.pics/731617b76854aabecf03ab5c1b760705.png?trs=b593c7690ca1476e7a4f1ae0a483acb04fe1ad1074ba819d5eee8a15b9960320");
+        }
+        .dp {
+            position: fixed;
+            width: 40px;
+            height: 40px;
+            left: 1240px;
+            top: 386px;
+
+            background:
+            url("https://i.paste.pics/995cdc92604c7408f5353e4ab95aeac8.png?trs=b593c7690ca1476e7a4f1ae0a483acb04fe1ad1074ba819d5eee8a15b9960320");
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="recta">
+        <a class="recta-logos" alt="Logo" href="/"></a>
+
+        <form action="/" method="post">
+            <input class="rectb" placeholder="Search ...">
+        </form>
+        <span class="rectc">
+        <a class="rectc-links" href="/">ADD</a>
+        </span>
+
+        <table>
+            <thead>
+                <th class="no">No</th>
+                <th class="cashier">Cashier</th>
+                <th class="product">Product</th>
+                <th class="category">Category</th>
+                <th class="price">Price</th>
+                <th class="action">Action</th>
+            </thead>
+
+            <tbody>
+                <td class="onsa">1</td>
+                <td class="reihsacpe">Pevita Pearce</td>
+                <td class="tcudorppe">Latte</td>
+                <td class="yrogetacpe">Drink</td>
+                <td class="ecirppe">Rp. 10.000</td>
+                <td class="btnpe">
+                    <a class="ep" href="/"></a>
+                    <a class="dp" href="/"></a>
+                </td>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
